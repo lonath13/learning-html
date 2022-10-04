@@ -23,21 +23,30 @@
         <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
         <!-- Already specified in the charset above-->
 
+        <style>
+             div {border: thin dotted red;}
+            .header {}
+            .menu {}
+            .main {}
+            .aside {}
+            .footer {}
+        </style>
+
         <noscript>Running JavaScript is not necessary in the HTML page ... FYI: your feature to execute scripts is turned off
         </noscript>
 
     </head>
     <body>
-         <header>Header</header>
-         <nav>Navagation</nav>
-         <aside>Aside</aside>
-         <main>Main</main>
-         <section>Section</section>
-         <article>Article</article>
-         <footer>Footer</footer>
+         <div><header>Header</header></div>
+         <div><nav>Navagation</nav></div>
+         <div><aside>Aside</aside></div>
+         <div><main>Main</main></div>
+         <div><section>Section</section></div>
+         <div><article>Article</article></div>
+         <div><footer>Footer</footer></div>
     </body>
 
-    <footer>
+    <div><footer>
         <blockquote cite="https://www.brainyquote.com/quotes/jim_carrey_379231?src=t_funny">
             <!-- Date Accessed 20220919-->
         </blockquote>
@@ -51,5 +60,5 @@
         
         
         <p>&copy Nathan Royal, powered by lonath13 in Github</p>
-    </foote>
+    </footer></div>
 </html>
